@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main {
+  height: 200vh;
+  background: white;
+  width: 300px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.input-div {
+  display: flex;
+  margin-left: 3px;
+  width: 187px;
+  margin-top: 9px;
+  justify-content: space-between;
+}
+
+.input-div .date {
+  background-color: blue;
+  color: white;
+  outline: none;
+  border: none;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Task {
+  background-color: black;
+  width: 287px;
+  margin-left: 2px;
+  margin-top: 16px;
+  height: 46px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding-left: 6px;
+  font-size: 17px;
+  cursor: pointer;
+  font-style: oblique;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Task::placeholder {
+  color: white;
+}
+
+.btn {
+  background-color: black;
+  margin-right: -97px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 91px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  font-size: 17px;
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.912);
+}
