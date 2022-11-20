@@ -12,7 +12,7 @@ let Tasks = [
     id: "id2",
   },
   {
-    Task_name: "Tidy up the my room😑.",
+    Task_name: "Tidy up my room😑.",
     Task_date: "18/12/2022",
     id: "id3",
   },
